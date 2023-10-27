@@ -1,31 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecommerce Website</title>
-    <link rel="stylesheet" href="eCart.css">
+  <meta charset="UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ecommerce Website</title>
+  <link rel="stylesheet" href="eCart.css">
 </head>
+
 <body>
-    <header>
-        <div class="header-content">
-            <div class="brand">E-Cart</div>
-            <div class="search-bar">
-                <input type="text" placeholder="Search products...">
-                <button class="search-button">&#128269;</button>
-            </div>
-            <div class="cart-icon">&#128722;</div>
-        </div>
-    </header>
-    <nav>
-        <div class="nav-content">
-            <div class="profile">Profile</div>
-            <ul>
-                <li>Home</li>
-                <li>Today Deals</li>
-                <li>New Release</li>
-            </ul>
-        </div>
-    </nav>
+  <header>
+    <div class="header-content">
+      <div class="brand">E-Cart</div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search products...">
+        <button class="search-button">&#128269;</button>
+      </div>
+      <div class="cart-icon">&#128722;</div>
+    </div>
+  </header>
+  <nav>
+    <div class="nav-content">
+      <div class="profile">Profile</div>
+      <ul>
+        <li>Home</li>
+        <li>Today Deals</li>
+        <li>New Release</li>
+      </ul>
+    </div>
+  </nav>
+  <div class="product-container">
+    <div class="product" id="div1">
+      <img src="./images/adults-plain-tshirt.jpg" alt="Product 1">
+      <h3 class="name">Women T-shirt</h3>
+      <p>Rating: 4.5/5</p>
+      <p class="price">Price: $10</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" id="div2">
+      <img src="./images/men-hoodie-red.jpg" alt="Product 1">
+      <h3>Mens Hoodie</h3>
+      <p>Rating: 4.6/5</p>
+      <p class="price">Price: $15</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" id="div3">
+      <img src="./images/men-pants-beige.jpg" alt="Product 1">
+      <h3>cloth Pant</h3>
+      <p>Rating: 4.5/5</p>
+      <p class="price">Price: $20</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" id="div4">
+      <img src="./images/menpolo-t-shirt-blue.jpg" alt="Product 1">
+      <h3>t-Shirt</h3>
+      <p>Rating: 4.2/5</p>
+      <p class="price">Price: $3</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" id="div5">
+      <img src="./images/plain-hooded-yellow.jpg" alt="Product 1">
+      <h3>Mens Hoodie</h3>
+      <p>Rating: 4.9/5</p>
+      <p class="price">Price: $15</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" id="div6">
+      <img src="./images/men-cozy-fleece-zip-up-hoodie-black.jpg" alt="Product 1">
+      <h3>Mens Hoodie</h3>
+      <p>Rating: 4.2/5</p>
+      <p class="price">Price: $16</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" id="div7">
+      <img src="./images/women-french-terry-fleece-jogger-camo.jpg" alt="Product 1">
+      <h3>Jogger Pant</h3>
+      <p>Rating: 4.1/5</p>
+      <p class="price">Price: $18</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" id="div8">
+      <img src="images/women-french-terry-fleece-jogger-gray.jpg" alt="Product 1">
+      <h3>Jogger Pant</h3>
+      <p>Rating: 4.2/5</p>
+      <p class="price">Price: $14</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" id="div9">
+      <img src="images/women-stretch-popover-hoodie-blue.jpg" alt="Product 1">
+      <h3>Womens Hoodie</h3>
+      <p>Rating: 4.3/5</p>
+      <p class="price">Price: $5</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" id="div10">
+      <img src="images/women-stretch-popover-hoodie-black.jpg" alt="Product 1">
+      <h3>Womens Hoodie</h3>
+      <p>Rating: 4.3/5</p>
+      <p class="price">Price: $3</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" id="div11">
+      <img src="images/men-chino-pants-black.jpg" alt="Product 1">
+      <h3>Mens Pant</h3>
+      <p>Rating: 4.8/5</p>
+      <p class="price">Price: $12</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" id="div12">
+      <img src="images/men-chino-pants-green.jpg" alt="Product 1">
+      <h3>Mens Pan</h3>
+      <p>Rating: 4.7/5</p>
+      <p class="price">Price: $13</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" id="div13">
+      <img src="images/men-golf-polo-t-shirt-black.jpg" alt="Product 1">
+      <h3>t-Shirt</h3>
+      <p>Rating: 4.0/5</p>
+      <p class="price">Price: $5</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" id="div14">
+      <img src="images/men-golf-polo-t-shirt-blue.jpg" alt="Product 1">
+      <h3>t-Shirt</h3>
+      <p>Rating: 3.5/5</p>
+      <p class="price">Price: $5</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" id="div15">
+      <img src="images/men-golf-polo-t-shirt-red.jpg" alt="Product 1">
+      <h3>t-Shirt</h3>
+      <p>Rating: 4.2/5</p>
+      <p class="price">Price: $5</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" id="div16">
+      <img src="images/men-slim-fit-summer-shorts-beige.jpg" alt="Product 1">
+      <h3>Mens Shorts</h3>
+      <p>Rating: 4.6/5</p>
+      <p class="price">Price: $15</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" id="div17">
+      <img src="images/men-slim-fit-summer-shorts-black.jpg" alt="Product 1">
+      <h3>Mens Shorts</h3>
+      <p>Rating: 4.4/5</p>
+      <p class="price">Price: $15</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" id="div18">
+      <img src="images/men-slim-fit-summer-shorts-gray.jpg" alt="Product 1">
+      <h3>Mens Shorts</h3>
+      <p>Rating: 4.2/5</p>
+      <p class="price">Price: $15</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" id="div19">
+      <img src="images/women-french-terry-fleece-jogger-camo.jpg" alt="Product 1">
+      <h3>Womens Jogger</h3>
+      <p>Rating: 4.3/5</p>
+      <p class="price">Price: $17</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" id="div20">
+      <img src="images/women-french-terry-fleece-jogger-gray.jpg" alt="Product 1">
+      <h3>Womens Jogger</h3>
+      <p>Rating: 4.3/5</p>
+      <p class="price">Price: $13</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
+
 </html>
